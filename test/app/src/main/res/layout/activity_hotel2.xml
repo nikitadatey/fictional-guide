@@ -1,0 +1,794 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".hotel2"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!--  first row  -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="7dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/galleryBG">
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        />
+
+                    <TextView
+                        android:layout_width="175dp"
+                        android:layout_height="62dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginEnd="13dp"
+                        android:background="@color/firstb"
+                        android:padding="4dp"
+                        android:text="Near Jyothi Circle \n 8.2Km from pilikula nisarga dham"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:layout_width="48dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginEnd="139dp"
+                        android:layout_marginBottom="2dp"
+                        android:background="@drawable/et_bg"
+                        android:padding="4dp"
+                        android:text="9.2"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="117dp"
+                        android:layout_height="32dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginLeft="252dp"
+                        android:layout_marginEnd="13dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@color/firstb"
+                        android:padding="4dp"
+                        android:text="GALLERY"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:layout_width="184dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginTop="6dp"
+                        android:layout_marginEnd="7dp"
+                        android:background="@color/firstb"
+                        android:padding="4dp"
+                        android:text="Goldfinch Hotel"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <!--  second row  -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="7dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/galleryBG">
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        />
+
+                    <TextView
+                        android:layout_width="177dp"
+                        android:layout_height="66dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginEnd="13dp"
+                        android:background="@color/firstb"
+                        android:padding="4dp"
+                        android:text="Situated in Mangalore, \n 7.8Km from pilikula nisarga dham"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:layout_width="48dp"
+                        android:layout_height="31dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginEnd="139dp"
+                        android:layout_marginBottom="0dp"
+                        android:background="@drawable/et_bg"
+                        android:padding="4dp"
+                        android:text="7.9"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="117dp"
+                        android:layout_height="32dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginLeft="252dp"
+                        android:layout_marginEnd="13dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@color/firstb"
+                        android:padding="4dp"
+                        android:text="GALLERY"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:layout_width="184dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginTop="6dp"
+                        android:layout_marginEnd="7dp"
+                        android:background="@color/firstb"
+                        android:padding="4dp"
+                        android:text="Kavitha Hotel"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <!--  third row  -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="7dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/galleryBG">
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                         />
+
+                    <TextView
+                        android:layout_width="173dp"
+                        android:layout_height="61dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginEnd="15dp"
+                        android:background="@color/firstb"
+                        android:padding="4dp"
+                        android:text="Opposite City Central Mall , \n 9 km from Pilikula Nisarga Dhama"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:layout_width="48dp"
+                        android:layout_height="31dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginEnd="139dp"
+                        android:layout_marginBottom="0dp"
+                        android:background="@drawable/et_bg"
+                        android:padding="4dp"
+                        android:text="8.7"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="117dp"
+                        android:layout_height="32dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginLeft="252dp"
+                        android:layout_marginEnd="13dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@color/firstb"
+                        android:padding="4dp"
+                        android:text="GALLERY"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:layout_width="184dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginTop="6dp"
+                        android:layout_marginEnd="7dp"
+                        android:background="@color/firstb"
+                        android:padding="4dp"
+                        android:text="Hotel Vasanth Mahal"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="15sp" />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <!--  fourth row  -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="7dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/galleryBG">
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                         />
+
+                    <TextView
+                        android:layout_width="171dp"
+                        android:layout_height="64dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginEnd="20dp"
+                        android:background="@color/firstb"
+                        android:padding="4dp"
+                        android:text="Near Bendorewell Junction, \n 8.1 km from Pilikula Nisarga Dhama"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:layout_width="48dp"
+                        android:layout_height="31dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginEnd="139dp"
+                        android:layout_marginBottom="0dp"
+                        android:background="@drawable/et_bg"
+                        android:padding="4dp"
+                        android:text="8.3"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="117dp"
+                        android:layout_height="32dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginLeft="252dp"
+                        android:layout_marginEnd="13dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@color/firstb"
+                        android:padding="4dp"
+                        android:text="GALLERY"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:layout_width="184dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginTop="6dp"
+                        android:layout_marginEnd="7dp"
+                        android:background="@color/firstb"
+                        android:padding="4dp"
+                        android:text="Hotel Suman Residency"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="16sp" />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <!--  fifth row  -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="7dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/galleryBG">
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        />
+
+                    <TextView
+                        android:layout_width="172dp"
+                        android:layout_height="62dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginEnd="18dp"
+                        android:background="@color/firstb"
+                        android:padding="4dp"
+                        android:text="Near Manipal Medical College , 9 km from Pilikula Nisarga Dhama" android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:layout_width="48dp"
+                        android:layout_height="31dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginEnd="139dp"
+                        android:layout_marginBottom="0dp"
+                        android:background="@drawable/et_bg"
+                        android:padding="4dp"
+                        android:text="7.3"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="117dp"
+                        android:layout_height="32dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginLeft="252dp"
+                        android:layout_marginEnd="13dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@color/firstb"
+                        android:padding="4dp"
+                        android:text="GALLERY"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:layout_width="184dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginTop="6dp"
+                        android:layout_marginEnd="7dp"
+                        android:background="@color/firstb"
+                        android:padding="4dp"
+                        android:text="Nalapad Residency"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <!--  sixth row  -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="7dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/galleryBG">
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                         />
+
+                    <TextView
+                        android:layout_width="172dp"
+                        android:layout_height="63dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginEnd="15dp"
+                        android:background="@color/firstb"
+                        android:padding="4dp"
+                        android:text="Situated in Mangalore, \n 9.1 km from Pilikula Nisarga Dhama"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:layout_width="48dp"
+                        android:layout_height="31dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginEnd="139dp"
+                        android:layout_marginBottom="0dp"
+                        android:background="@drawable/et_bg"
+                        android:padding="4dp"
+                        android:text="9.6"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="117dp"
+                        android:layout_height="32dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginLeft="252dp"
+                        android:layout_marginEnd="13dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@color/firstb"
+                        android:padding="4dp"
+                        android:text="GALLERY"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:layout_width="184dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginTop="6dp"
+                        android:layout_marginEnd="7dp"
+                        android:background="@color/firstb"
+                        android:padding="4dp"
+                        android:text="Metro Plaza Hotel"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <!--  seventh row  -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="7dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/galleryBG">
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                         />
+
+                    <TextView
+                        android:layout_width="173dp"
+                        android:layout_height="64dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginEnd="17dp"
+                        android:background="@color/firstb"
+                        android:padding="4dp"
+                        android:text="Near Hotel Prestige \n 8 km from Pilikula Nisarga Dhama"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:layout_width="48dp"
+                        android:layout_height="31dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginEnd="139dp"
+                        android:layout_marginBottom="0dp"
+                        android:background="@drawable/et_bg"
+                        android:padding="4dp"
+                        android:text="9.0"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="117dp"
+                        android:layout_height="32dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginLeft="252dp"
+                        android:layout_marginEnd="13dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@color/firstb"
+                        android:padding="4dp"
+                        android:text="GALLERY"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:layout_width="184dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginTop="6dp"
+                        android:layout_marginEnd="7dp"
+                        android:background="@color/firstb"
+                        android:padding="4dp"
+                        android:text="Hotel Mayur Residency"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="16sp" />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <!--  eighth row  -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="7dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/galleryBG">
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                         />
+
+                    <TextView
+                        android:layout_width="174dp"
+                        android:layout_height="66dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginEnd="16dp"
+                        android:background="@color/firstb"
+                        android:padding="4dp"
+                        android:text="Situated in Mangalore, \n 7.4 km from Pilikula Nisarga Dhama"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:layout_width="48dp"
+                        android:layout_height="31dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginEnd="139dp"
+                        android:layout_marginBottom="0dp"
+                        android:background="@drawable/et_bg"
+                        android:padding="4dp"
+                        android:text="8.0"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="117dp"
+                        android:layout_height="32dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginLeft="252dp"
+                        android:layout_marginEnd="13dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@color/firstb"
+                        android:padding="4dp"
+                        android:text="GALLERY"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:layout_width="184dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginTop="6dp"
+                        android:layout_marginEnd="7dp"
+                        android:background="@color/firstb"
+                        android:padding="4dp"
+                        android:text="Ayush International Hotel"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="16sp" />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <!--  ninth row  -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="7dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/galleryBG">
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        />
+
+                    <TextView
+                        android:layout_width="172dp"
+                        android:layout_height="63dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginEnd="18dp"
+                        android:background="@color/firstb"
+                        android:padding="4dp"
+                        android:text="KSRTC Bus Stand Road , \n8.6 km from Pilikula Nisarga Dhama"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:layout_width="48dp"
+                        android:layout_height="31dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginEnd="139dp"
+                        android:layout_marginBottom="0dp"
+                        android:background="@drawable/et_bg"
+                        android:padding="4dp"
+                        android:text="8.0"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="117dp"
+                        android:layout_height="32dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginLeft="252dp"
+                        android:layout_marginEnd="13dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@color/firstb"
+                        android:padding="4dp"
+                        android:text="GALLERY"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:layout_width="184dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginTop="6dp"
+                        android:layout_marginEnd="7dp"
+                        android:background="@color/firstb"
+                        android:padding="4dp"
+                        android:text="Hotel Deepa Comforts"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="15sp" />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <!--  tenth row  -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="7dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/galleryBG">
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                         />
+
+                    <TextView
+                        android:layout_width="173dp"
+                        android:layout_height="63dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginEnd="17dp"
+                        android:background="@color/firstb"
+                        android:padding="4dp"
+                        android:text="Opposite City Centre Mall , \n 8.8 km from Pilikula Nisarga Dhama"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:layout_width="48dp"
+                        android:layout_height="31dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginEnd="139dp"
+                        android:layout_marginBottom="0dp"
+                        android:background="@drawable/et_bg"
+                        android:padding="4dp"
+                        android:text="7.9"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="117dp"
+                        android:layout_height="32dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginLeft="252dp"
+                        android:layout_marginEnd="13dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@color/firstb"
+                        android:padding="4dp"
+                        android:text="GALLERY"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:layout_width="184dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginTop="6dp"
+                        android:layout_marginEnd="7dp"
+                        android:background="@color/firstb"
+                        android:padding="4dp"
+                        android:text="Navaratna Palace"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back3"
+    tools:context=".mood_des">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif-medium"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="MOODABIDRI"
+                android:textColor="@color/white"
+                android:textAlignment="center"
+                android:textSize="35sp"
+                android:textStyle="bold" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_below="@+id/textView2"
+                android:paddingTop="15dp">
+
+                <me.biubiubiu.justifytext.library.JustifyTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/border"
+                    android:fontFamily="sans-serif"
+                    android:layout_gravity="center"
+                    android:layout_centerHorizontal="true"
+                    android:text="\n        Moodabidri (also called Mudbidri, Moodbidre and Bedra), is a town in Dakshina Kannada district. It lies 34 km northeast of the district headquarters, Mangalore city, in Karnataka, India.
+           Because of widely grown bamboo in ancient days, this place got named as Moodabidri. Moodabidri comes from two words: Moodu and Bidiru. Moodu means East and Bidiru means bamboo.
+           Moodabidri is on National Highway 169 (old NH 13). It is accessible from Mangalore city (34 km away) by road. Mangalore International Airport is 23 km away from Moodabidri.
+           It is 54 km from Udupi and 18 km from Karkala. Other nearby places are Venur (20 km), Belthangady (37 km), Kudremukh (66 km), Agumbe (68 km), Puttur (54 km) and Mijar (5 km) \n"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:paddingLeft="4dp"
+                    android:paddingRight="4dp"/>
+
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back3"
+    tools:context=".coorg_des">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-medium"
+                android:text="COORG"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="35sp"
+                android:textStyle="bold" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_below="@+id/textView2"
+                android:paddingTop="15dp">
+
+                <me.biubiubiu.justifytext.library.JustifyTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:text=" \n       Proudly called the Scotland of India, Kodagu, or Coorg as it is rightfully called is situated on the Western Ghats in the state of Karnataka in India. The small town is gifted with abundance. Coorg is the largest producer of coffee in India, and the best places to visit in Coorg are its picturesque coffee plantations.\n
+        You can trek to the top of Tadiandamol, the second highest mountain of Karnataka, and the highest in the region.Apart from these, there are other activities to do in Coorg that keep tourists entertained. Some of them are riding an elephant at Dubare Elephant Camp, trekking and participating in sports like white water rafting in Upper Barapole River.\n
+         Mangaluru International Airport is the closest airport to Coorg located at a distance of 135 kilometers. The railway station located at Mysore, at a distance of approximately 95 kilometers is the nearest to Coorg. However, the distance between Mysore and Coorg is a little over 100 kms which you can cover with a 2 ½ to 3 hour drive.\n"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:fontFamily="sans-serif" />
+
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

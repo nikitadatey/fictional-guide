@@ -1,0 +1,795 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".hotel10"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!--  first row  -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="7dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/galleryBG">
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/karkalah1" />
+
+                    <TextView
+                        android:layout_width="175dp"
+                        android:layout_height="62dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginEnd="13dp"
+                        android:background="@color/firstb"
+                        android:padding="4dp"
+                        android:text="Vendors Lane, Market road, Near Bus Stand, Karkala"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:layout_width="48dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginEnd="139dp"
+                        android:layout_marginBottom="2dp"
+                        android:background="@drawable/et_bg"
+                        android:padding="4dp"
+                        android:text="9.2"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="117dp"
+                        android:layout_height="32dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginLeft="252dp"
+                        android:layout_marginEnd="13dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@color/firstb"
+                        android:padding="4dp"
+                        android:text="GALLERY"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:layout_width="184dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginTop="6dp"
+                        android:layout_marginEnd="7dp"
+                        android:background="@color/firstb"
+                        android:padding="4dp"
+                        android:text="Hotel Kateel International"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="16sp" />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <!--  second row  -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="7dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/galleryBG">
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/karkalah2" />
+
+                    <TextView
+                        android:layout_width="177dp"
+                        android:layout_height="66dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginEnd="13dp"
+                        android:background="@color/firstb"
+                        android:padding="4dp"
+                        android:text="Near Nitte College, Nitte, Karkala"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:layout_width="48dp"
+                        android:layout_height="31dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginEnd="139dp"
+                        android:layout_marginBottom="0dp"
+                        android:background="@drawable/et_bg"
+                        android:padding="4dp"
+                        android:text="7.9"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="117dp"
+                        android:layout_height="32dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginLeft="252dp"
+                        android:layout_marginEnd="13dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@color/firstb"
+                        android:padding="4dp"
+                        android:text="GALLERY"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:layout_width="184dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginTop="6dp"
+                        android:layout_marginEnd="7dp"
+                        android:background="@color/firstb"
+                        android:padding="4dp"
+                        android:text="Ratna Forever"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <!--  third row  -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="7dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/galleryBG">
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:src="@drawable/karkalah3" />
+
+                    <TextView
+                        android:layout_width="173dp"
+                        android:layout_height="61dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginEnd="15dp"
+                        android:background="@color/firstb"
+                        android:padding="4dp"
+                        android:text="SH 37, Karkala"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:layout_width="48dp"
+                        android:layout_height="31dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginEnd="139dp"
+                        android:layout_marginBottom="0dp"
+                        android:background="@drawable/et_bg"
+                        android:padding="4dp"
+                        android:text="8.7"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="117dp"
+                        android:layout_height="32dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginLeft="252dp"
+                        android:layout_marginEnd="13dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@color/firstb"
+                        android:padding="4dp"
+                        android:text="GALLERY"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:layout_width="184dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginTop="6dp"
+                        android:layout_marginEnd="7dp"
+                        android:background="@color/firstb"
+                        android:padding="4dp"
+                        android:text="Suhag Hotel"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <!--  fourth row  -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="7dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/galleryBG">
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/karkalah4" />
+
+                    <TextView
+                        android:layout_width="171dp"
+                        android:layout_height="64dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginEnd="20dp"
+                        android:background="@color/firstb"
+                        android:padding="4dp"
+                        android:text="Near Bus Stand, Karkala"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:layout_width="48dp"
+                        android:layout_height="31dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginEnd="139dp"
+                        android:layout_marginBottom="0dp"
+                        android:background="@drawable/et_bg"
+                        android:padding="4dp"
+                        android:text="8.3"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="117dp"
+                        android:layout_height="32dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginLeft="252dp"
+                        android:layout_marginEnd="13dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@color/firstb"
+                        android:padding="4dp"
+                        android:text="GALLERY"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:layout_width="184dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginTop="6dp"
+                        android:layout_marginEnd="7dp"
+                        android:background="@color/firstb"
+                        android:padding="4dp"
+                        android:text="Hotel Swagath"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <!--  fifth row  -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="7dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/galleryBG">
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/karkalah5" />
+
+                    <TextView
+                        android:layout_width="172dp"
+                        android:layout_height="62dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginEnd="18dp"
+                        android:background="@color/firstb"
+                        android:padding="4dp"
+                        android:text="State Highway 37, Karkala"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:layout_width="48dp"
+                        android:layout_height="31dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginEnd="139dp"
+                        android:layout_marginBottom="0dp"
+                        android:background="@drawable/et_bg"
+                        android:padding="4dp"
+                        android:text="7.3"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="117dp"
+                        android:layout_height="32dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginLeft="252dp"
+                        android:layout_marginEnd="13dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@color/firstb"
+                        android:padding="4dp"
+                        android:text="GALLERY"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:layout_width="184dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginTop="6dp"
+                        android:layout_marginEnd="7dp"
+                        android:background="@color/firstb"
+                        android:padding="4dp"
+                        android:text="Kings Court Hotel"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <!--  sixth row  -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="7dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/galleryBG">
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/karkalah6" />
+
+                    <TextView
+                        android:layout_width="172dp"
+                        android:layout_height="63dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginEnd="15dp"
+                        android:background="@color/firstb"
+                        android:padding="4dp"
+                        android:text="Near Anantha Shayana Temple, State Highway 37, Karkala"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:layout_width="48dp"
+                        android:layout_height="31dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginEnd="139dp"
+                        android:layout_marginBottom="0dp"
+                        android:background="@drawable/et_bg"
+                        android:padding="4dp"
+                        android:text="9.6"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="117dp"
+                        android:layout_height="32dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginLeft="252dp"
+                        android:layout_marginEnd="13dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@color/firstb"
+                        android:padding="4dp"
+                        android:text="GALLERY"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:layout_width="184dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginTop="6dp"
+                        android:layout_marginEnd="7dp"
+                        android:background="@color/firstb"
+                        android:padding="4dp"
+                        android:text="Hotel Prakash"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <!--  seventh row  -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="7dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/galleryBG">
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/karkalah7" />
+
+                    <TextView
+                        android:layout_width="173dp"
+                        android:layout_height="64dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginEnd="17dp"
+                        android:background="@color/firstb"
+                        android:padding="4dp"
+                        android:text="Located in karkala \n Alangar, Padumarnadu"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:layout_width="48dp"
+                        android:layout_height="31dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginEnd="139dp"
+                        android:layout_marginBottom="0dp"
+                        android:background="@drawable/et_bg"
+                        android:padding="4dp"
+                        android:text="9.0"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="117dp"
+                        android:layout_height="32dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginLeft="252dp"
+                        android:layout_marginEnd="13dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@color/firstb"
+                        android:padding="4dp"
+                        android:text="GALLERY"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:layout_width="184dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginTop="6dp"
+                        android:layout_marginEnd="7dp"
+                        android:background="@color/firstb"
+                        android:padding="4dp"
+                        android:text="Golden Residency Hotel"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="16sp" />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <!--  eighth row  -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="7dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/galleryBG">
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/karkalah8" />
+
+                    <TextView
+                        android:layout_width="174dp"
+                        android:layout_height="66dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginEnd="16dp"
+                        android:background="@color/firstb"
+                        android:padding="4dp"
+                        android:text="Basavankaje Alangar, P O Belvai, Moodbidri"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:layout_width="48dp"
+                        android:layout_height="31dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginEnd="139dp"
+                        android:layout_marginBottom="0dp"
+                        android:background="@drawable/et_bg"
+                        android:padding="4dp"
+                        android:text="8.0"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="117dp"
+                        android:layout_height="32dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginLeft="252dp"
+                        android:layout_marginEnd="13dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@color/firstb"
+                        android:padding="4dp"
+                        android:text="GALLERY"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:layout_width="184dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginTop="6dp"
+                        android:layout_marginEnd="7dp"
+                        android:background="@color/firstb"
+                        android:padding="4dp"
+                        android:text="Pandit's Health Resort "
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="12sp" />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <!--  ninth row  -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="7dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/galleryBG">
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/karkalah9" />
+
+                    <TextView
+                        android:layout_width="172dp"
+                        android:layout_height="63dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginEnd="18dp"
+                        android:background="@color/firstb"
+                        android:padding="4dp"
+                        android:text="Located in karkala, \n Nelligudde Rd, Ashwathapura, Puthige"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:layout_width="48dp"
+                        android:layout_height="31dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginEnd="139dp"
+                        android:layout_marginBottom="0dp"
+                        android:background="@drawable/et_bg"
+                        android:padding="4dp"
+                        android:text="8.0"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="117dp"
+                        android:layout_height="32dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginLeft="252dp"
+                        android:layout_marginEnd="13dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@color/firstb"
+                        android:padding="4dp"
+                        android:text="GALLERY"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:layout_width="184dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginTop="6dp"
+                        android:layout_marginEnd="7dp"
+                        android:background="@color/firstb"
+                        android:padding="4dp"
+                        android:text="The Estate Resort, Bar, Restaurant"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="10sp" />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <!--  tenth row  -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="7dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/galleryBG">
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/karkalah10" />
+
+                    <TextView
+                        android:layout_width="173dp"
+                        android:layout_height="63dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginEnd="17dp"
+                        android:background="@color/firstb"
+                        android:padding="4dp"
+                        android:text="SH 66, Near Bus Stand, Dakshina Kannada, Moodbidri, "
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:layout_width="48dp"
+                        android:layout_height="31dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginEnd="139dp"
+                        android:layout_marginBottom="0dp"
+                        android:background="@drawable/et_bg"
+                        android:padding="4dp"
+                        android:text="7.9"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="117dp"
+                        android:layout_height="32dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginLeft="252dp"
+                        android:layout_marginEnd="13dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@color/firstb"
+                        android:padding="4dp"
+                        android:text="GALLERY"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:layout_width="184dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginTop="6dp"
+                        android:layout_marginEnd="7dp"
+                        android:background="@color/firstb"
+                        android:padding="4dp"
+                        android:text="Misty Heaven"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

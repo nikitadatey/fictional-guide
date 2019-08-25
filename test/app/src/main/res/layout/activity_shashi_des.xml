@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Shashi_des"
+    android:background="@drawable/back3">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-medium"
+                android:text="SASIHITHLU BEACH"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="35sp"
+                android:textStyle="bold" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_below="@+id/textView2"
+                android:paddingTop="15dp">
+
+                <me.biubiubiu.justifytext.library.JustifyTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:text=" \n       Sasihithlu Beach is a beach on the arabian sea oceanfront situated around 22 km north of Mangaluru on National Highway 66. Tourists have to take a left turn at Mukka and after travelling 6 km on a katcha road they would reach the beach.\n
+        Sasihithlu Beach marks the confluence of Arabian sea and two rivers which are Nandini and Shambhavi. The beach is not very popular amongst tourists and hence is still very clean and unaltered.\n
+        This beach is 20kms away from Mangalore. Bus no 2 from statebank will directly hit this place if you do not have your own transport. Since the place is under forest department they have tried to keep this place clean and safe. \n"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:fontFamily="sans-serif" />
+
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

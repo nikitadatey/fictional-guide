@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#23A7D8</color>
+    <color name="colorPrimaryDark">#23A7D8</color>
+    <color name="colorAccent">#6f0b0b</color>
+    <color name="galleryBG">#c3cfe2</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="transparent">#00000000</color>
+    <color name="gradStart">#19AA8B</color>
+    <color name="gradStop">#23A7D8</color>
+    
+    <color name="bg">#23A7D8</color>
+
+    <color name="first">#99A9C9</color>
+    <color name="second">#ffcc33</color>
+    <color name="third">#9933ff</color>
+    <color name="fourth">#00cc66</color>
+    <color name="fifth">#993333</color>
+    <color name="sixth">#666633</color>
+
+    <color name="firstb">#4f6796</color>
+    <color name="secondb">#b38600</color>
+    <color name="thirdb">#5900b3</color>
+    <color name="fourthb">#008040</color>
+    <color name="fifthb">#602020</color>
+    <color name="sixthb">#434323</color>
+
+    <color name="now">#ff6666</color>
+
+
+
+
+</resources>

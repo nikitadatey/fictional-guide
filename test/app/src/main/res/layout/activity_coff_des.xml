@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back3"
+    tools:context=".coff_des">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            tools:ignore="MissingConstraints">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif-medium"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="COFFEE MUSEUM"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="35sp"
+                android:textStyle="bold" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_below="@+id/textView2"
+                android:paddingTop="15dp">
+                <me.biubiubiu.justifytext.library.JustifyTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif"
+                    android:text="\n        Located in Chikmagalur, the Coffee Museum is a unique repertoire of the coffee business, right from growing to the brewing of the beans. This museum was built to reconstruct the thematic display of the history of coffee and the processes including picking, grinding and drying using which the bean was made.\n
+          The Coffee Museum is situated just 5km from IG Road and a few hundred metres ahead of Zilla panchayat Bhavan and RTO which is well-connected to roads and can be easily reached by hiring a taxi or driving all the way there. \n"
+                    android:textSize="18sp"/>
+
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

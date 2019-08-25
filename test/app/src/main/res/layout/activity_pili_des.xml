@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pili_des"
+    android:background="@drawable/back3">
+
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-medium"
+                android:text="PILIKULA NISARGA DHAMA"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="35sp"
+                android:textStyle="bold" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_below="@+id/textView2"
+                android:paddingTop="15dp">
+
+                <me.biubiubiu.justifytext.library.JustifyTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:text=" \n       Pilikula Nisarga Dhama (Pilikula) is a major eco-education and tourism development project promoted by the District Administration of Dakshina Kannada in the beautiful city of Mangaluru in Karnataka State, India.\n
+        An integrated theme park with a wide variety of features, Pilikula has many attractions of cultural, educational and scientific interest. The park is spread over an area of 370 acres comprising of a tropical forest and the enchanting Pilikula Lake. The project presently includes a Biological Park, Arboretum, a Science Centre, a Lake Park with Boating Centre, a Water Amusement Park and a Golf Course. Other features which are currently being developed include a Heritage Village, an Ayurveda Health Therapy Centre and Tourist Cottages.\n
+        By train, flight and ship you can reach Mangalore city.From Mangalore to Pilikula Nisargadhama is about 10 Kilometers in National Highway 13.On the way from Vamanjoor Junction to Pilikula is about 2 Kilometers.Buses from Mangalore city to Pilikula are numbered as 3A, 3B, 3C.\n"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:fontFamily="sans-serif" />
+
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

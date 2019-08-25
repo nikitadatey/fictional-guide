@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.virus.test">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="test"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".startpage">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="www.example.com"
+                    android:pathPrefix="/gizmos"
+                    android:scheme="http" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".signup" />
+        <activity android:name=".login" />
+        <activity android:name=".Home" />
+        <activity android:name=".places" />
+        <activity android:name=".placeview1" />
+        <activity android:name=".placeview2" />
+        <activity android:name=".placeview3" />
+        <activity android:name=".placeview4" />
+        <activity android:name=".placeview5" />
+        <activity android:name=".placeview6" />
+        <activity android:name=".placeview7" />
+        <activity android:name=".placeview8" />
+        <activity android:name=".placeview9" />
+        <activity android:name=".placeview10" />
+        <activity android:name=".gallery1" />
+        <activity android:name=".hotel1" />
+        <activity android:name=".hotel2" />
+        <activity android:name=".gallery2" />
+        <activity android:name=".gallery3" />
+        <activity android:name=".hotel3" />
+        <activity android:name=".hotel7" />
+        <activity android:name=".hotel10" />
+        <activity android:name=".hotel8" />
+        <activity android:name=".hotel9" />
+        <activity android:name=".gallery7" />
+        <activity android:name=".gallery10" />
+        <activity android:name=".gallery8" />
+        <activity android:name=".gallery9" />
+        <activity android:name=".coorg_des" />
+        <activity android:name=".pili_des" />
+        <activity android:name=".Shashi_des" />
+        <activity android:name=".coff_des" />
+        <activity android:name=".kudre_des" />
+        <activity android:name=".mood_des" />
+        <activity android:name=".karkala_des"></activity>
+    </application>
+
+</manifest>

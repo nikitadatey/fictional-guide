@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".kudre_des"
+    android:background="@drawable/back3">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-medium"
+                android:text="KUDREMUKH"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="35sp"
+                android:textStyle="bold" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_below="@+id/textView2"
+                android:paddingTop="15dp">
+
+                <me.biubiubiu.justifytext.library.JustifyTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:text="  \n        With the promise of a picturesque view of a mountain in the shape of a horse face, Kudremukh is famous for its biodiversity and scenic beauty.
+         \n         A popular hill-station among the Bangalore crowd, Kudremukh is actually a hill range in the Chikmagalurdistrict of Karnataka. With its rolling meadows, grasslands and dense forests, this place is a bio-diversity hotspot.Varaha Parvatha, another mountain range nearby at a height of 1458m above sea level is a part of the UNESCO World Heritage Site.
+         \n        The nearest airport to Kudremukh is Mangalore airport, which is situated 93 km away from Kudremukh. Mangalore airport is connected with the major cities of the country. From Mangalore, you can take a private taxi or bus to Kudremukh. \n "
+
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:fontFamily="sans-serif" />
+
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>

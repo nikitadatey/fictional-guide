@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">test</string>
+    <string name="food">FOOD</string>
+    <string name="description">DESCRIPTION</string>
+    <string name="direction">DIRECTION</string>
+    <string name="coorg">COORG</string>
+    <string name="hotels">HOTELS</string>
+    <string name="change_view">CHANGE VIEW</string>
+    <string name="gallery">GALLERY</string>
+    <string name="map">MAP</string>
+    <string name="near_by_places">NEAR BY PLACES</string>
+</resources>
